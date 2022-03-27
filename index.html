@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="description" content="Vishnu Prasad Bhat - Portfolio" />
+    <title>Vishnu Prasad Bhat - Portfolio</title>
+    <link rel="icon" href="/img/logo-vp-small.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <link rel="stylesheet" href="/css/general.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <script defer src="/js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <!-- add logo in place of link -->
+      <a href="#"
+        ><img class="logo" src="img/logo-vp.png" alt="logo" href="#"
+      /></a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <!-- <li><a class="main-nav-link" href="#about">About</a></li> -->
+          <li><a class="main-nav-link" href="#skills">Skills</a></li>
+          <li><a class="main-nav-link" href="#projects">Projects</a></li>
+          <li>
+            <a class="main-nav-link btn btn-md" href="#contact">Contact</a>
+          </li>
+          <li>
+            <a class="main-nav-link" href="resume" download="Vishnu's Resume"
+              >Resume&downarrow;</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="theme-container" title="Change Theme">
+        <ion-icon class="icons icons-sm sun" name="sunny"></ion-icon>
+        <ion-icon class="icons icons-sm moon" name="moon"></ion-icon>
+      </div>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+    <main>
+      <section class="section-about" id="about">
+        <div class="about">
+          <div class="profile-box">
+            <img
+              class="profile-img"
+              src="/img/vishnu-profile.png"
+              alt="vishnu prasad profile image"
+            />
+            <div class="profile-name-box">
+              <h1 class="profile-name">Vishnu Prasad Bhat</h1>
+              <p class="designation">Web Developer</p>
+            </div>
+          </div>
+          <div class="profile-summary-box">
+            <p class="profile-summary">
+              Enthusiastic web developer with over 2 years of front end and back
+              end development experience and passion for responsive website
+              design. Enjoys research and building innovative applications to
+              the needs of the business.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="section-skills" id="skills">
+        <div class="container">
+          <h2 class="primary-heading">Skills</h2>
+        </div>
+
+        <div class="container">
+          <ul class="skill-list grid--3--cols">
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon
+                  class="icons icons-lg"
+                  name="logo-javascript"
+                ></ion-icon>
+                <p>JavaScript</p>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon class="icons icons-lg" name="logo-html5"></ion-icon>
+                <p>HTML</p>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon class="icons icons-lg" name="logo-css3"></ion-icon>
+                <p>CSS</p>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon class="icons icons-lg" name="logo-react"></ion-icon>
+                <p>React</p>
+              </div>
+            </li>
+
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon class="icons icons-lg" name="logo-buffer"></ion-icon>
+                <p>SQL</p>
+              </div>
+            </li>
+            <li class="skill-item">
+              <div class="skill-name">
+                <ion-icon class="icons icons-lg" name="git-branch"></ion-icon>
+                <p>GIT</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="section-projects" id="projects">
+        <div class="container">
+          <h2 class="primary-heading">Projects</h2>
+        </div>
+        <div class="container grid--2--cols">
+          <div class="project-content">
+            <div class="project-img-box">
+              <img src="/img/projects/Omnifood.png" alt="" />
+            </div>
+
+            <div class="project-text-box">
+              <div class="stack-tag">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <p class="project-title">Omnifood</p>
+              <p class="project-description">
+                A fictional AI based food delivery company with single page
+                responsive site which supports both desktop and mobile view.
+              </p>
+            </div>
+            <div class="project-source">
+              <a
+                class="btn btn-lg"
+                href="https://omnifood-lifeatweb.netlify.app/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                class="btn btn-lg"
+                href="https://github.com/vishnuprasadbhat/Omnifood"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-img-box">
+              <img src="/img/projects/Forkify.png" alt="" />
+            </div>
+            <div class="project-text-box">
+              <div class="stack-tag">
+                <span class="tag">HTML</span>
+                <span class="tag">SASS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <p class="project-title">Forkify</p>
+              <p class="project-description">
+                A Recipe application which includes functionalities like
+                bookmarking recipies, set number of servings and upload custom
+                recipies.
+              </p>
+            </div>
+            <div class="project-source">
+              <a
+                class="btn btn-lg"
+                href="https://forkify-lifeatweb.netlify.app/"
+                >Live Demo</a
+              >
+              <a
+                class="btn btn-lg"
+                href="https://github.com/vishnuprasadbhat/forkify"
+                >Code</a
+              >
+            </div>
+          </div>
+          <div class="project-content">
+            <div class="project-img-box">
+              <img src="/img/projects/Bankist.png" alt="" />
+            </div>
+            <div class="project-text-box">
+              <div class="stack-tag">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+              </div>
+              <p class="project-title">Bankist</p>
+              <p class="project-description">
+                Bankist is a fictitious and minimalistic online banking
+                application that allows the user to login to their account, View
+                and sort their monetary movements etc...
+              </p>
+            </div>
+            <div class="project-source">
+              <a
+                class="btn btn-lg"
+                href="https://lifeatweb-bankist.netlify.app/"
+                target="_blank"
+                >Live Demo</a
+              >
+              <a
+                class="btn btn-lg"
+                href="https://github.com/vishnuprasadbhat/Bankist"
+                target="_blank"
+                >Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-contact" id="contact">
+        <div class="container">
+          <h2 class="primary-heading">Get In Touch</h2>
+        </div>
+        <div class="container">
+          <p class="contact-sub">
+            I'm open to job and project opportunities. Contact me by
+          </p>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a
+                class="contact-link"
+                href="mailTo:bhatvishnu.1@gmail.com"
+                title="Emial"
+                ><ion-icon class="icons icons-md" name="mail"></ion-icon
+              ></a>
+            </li>
+            <li class="contact-item">
+              <a
+                class="contact-link"
+                href="https://www.linkedin.com/in/vishnu-prasad-bhat-3910b6163/"
+                target="_blank"
+                title="LinkedIn"
+                ><ion-icon
+                  class="icons icons-md"
+                  name="logo-linkedin"
+                ></ion-icon
+              ></a>
+            </li>
+            <li class="contact-item">
+              <a
+                class="contact-link"
+                href="https://github.com/vishnuprasadbhat"
+                target="_blank "
+                title="GitHub"
+                ><ion-icon class="icons icons-md" name="logo-github"></ion-icon
+              ></a>
+            </li>
+            <li class="contact-item">
+              <a
+                class="contact-link"
+                href="https://twitter.com/bhat_vishnup"
+                target="_blank "
+                title="Twitter"
+                ><ion-icon class="icons icons-md" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p class="footer">&copy Designed and built by Vishnu</p>
+    </footer>
+  </body>
+</html>

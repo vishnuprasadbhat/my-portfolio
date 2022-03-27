@@ -1,0 +1,191 @@
+/* Below 1350px (computers) 1350/16 = 84em*/
+
+@media (max-width: 84em) {
+  .about {
+    max-width: 120rem;
+  }
+}
+
+/* Below 944px (Tablets) */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+
+  /* mobile nav */
+  .btn-mobile-nav {
+    display: block;
+    z-index: 1000;
+  }
+
+  .main-nav {
+    background-color: var(--BG-mob-nav-color);
+
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* hide mobile nav bar */
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+
+    transform: translate(100%);
+    transition: all 0.5s ease-in;
+  }
+
+  .nav-open .main-nav {
+    opacity: 100%;
+    pointer-events: auto;
+    visibility: visible;
+
+    transform: translate(0);
+  }
+
+  .main-nav-list {
+    flex-direction: column;
+    gap: 4.8rem;
+  }
+
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3rem;
+  }
+
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+
+  .section-about {
+    padding: 4.8rem 0 9.6rem 0;
+  }
+
+  .profile-box {
+    flex-direction: column-reverse;
+    gap: 3.2rem;
+  }
+
+  .profile-img {
+    width: 25vw;
+    height: 25vw;
+  }
+
+  .profile-name-box {
+    text-align: center;
+  }
+
+  .profile-summary {
+    text-align: justify;
+  }
+
+  .container {
+    padding: 0 6.4rem;
+  }
+
+  .grid--3--cols {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .skill-list {
+    justify-content: center;
+    gap: 5.4rem;
+  }
+
+  .project-description {
+    text-align: start;
+  }
+
+  .btn-lg {
+    font-size: 1.8rem;
+    padding: 0.8rem 1.6rem;
+  }
+}
+
+/* Below 700px (Small Tablets) */
+@media (max-width: 44em) {
+  .container {
+    padding: 0 4.8rem;
+  }
+
+  .grid--2--cols {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-img {
+    width: 30vw;
+    height: 30vw;
+  }
+
+  .icons-lg {
+    height: 6.2rem;
+    width: 6.2rem;
+  }
+}
+
+/* Below 544px (Smart Phones) */
+@media (max-width: 34em) {
+  .container {
+    padding: 0 3.2rem;
+  }
+
+  .about {
+    gap: 4.8rem;
+  }
+
+  .profile-box {
+    gap: 2.4rem;
+  }
+
+  .profile-img {
+    width: 40vw;
+    height: 40vw;
+  }
+
+  .profile-name {
+    font-size: 3.2rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .designation {
+    font-size: 2.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .profile-summary {
+    font-size: 2rem;
+  }
+
+  .skill-list {
+    justify-content: center;
+    gap: 3.2rem;
+  }
+
+  .skill-name {
+    font-size: 2rem;
+  }
+
+  .icons-md {
+    height: 3.6rem;
+    width: 3.6rem;
+    fill: rgba(0, 136, 169, 1);
+  }
+
+  .icons-sm {
+    height: 3rem;
+    width: 3rem;
+    fill: rgba(0, 136, 169, 1);
+  }
+}
