@@ -139,3 +139,8 @@ ion-icon {
   width: 2.4rem;
   fill: rgba(0, 136, 169, 1);
 }
+
+.disabled {
+  pointer-events: none;
+  background-color: rgba(0, 136, 169, 0.5) !important;
+}
