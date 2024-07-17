@@ -188,4 +188,9 @@
     width: 3rem;
     fill: rgba(0, 136, 169, 1);
   }
+
+  .modal-content {
+    width: 80%;
+    font-size: 2rem;
+  }
 }
